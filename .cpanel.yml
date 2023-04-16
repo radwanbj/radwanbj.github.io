@@ -1,0 +1,6 @@
+---
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home/radwanl1/public_html/
+        - /bin/cp README.md $DEPLOYPATH
+        
